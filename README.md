@@ -33,24 +33,22 @@ A mobile task management application built with React Native and Expo for the Mo
 
 ## Folder Structure
 
-\`\`\`
+```
 .
 ├── App.js                   # Entry point and navigation setup
 ├── src/
 │   ├── screens/
-│   │   ├── HomeScreen.js      # Main screen showing task list
-│   │   ├── AddTaskScreen.js   # Screen for adding a new task
-│   │   └── TaskDetailScreen.js# Screen for managing a task
+│   │   ├── HomeScreen.js       # Main screen showing task list
+│   │   ├── AddTaskScreen.js    # Screen for adding a new task
+│   │   └── TaskDetailScreen.js # Screen for managing a task
 │   └── navigation/
-│       └── AppNavigator.js  # React Navigation stack configuration
+│       └── AppNavigator.js     # React Navigation stack configuration
 ├── utils/
 │   └── storage.js           # AsyncStorage helpers (get, save, delete)
 ├── assets/                  # App icons, splash screen (if needed)
 ├── app.json                 # App configuration (name, slug, icon, etc.)
 └── eas.json                 # EAS Build configuration
-\`\`\`
-
----
+```
 
 ## How to Run the Project
 
